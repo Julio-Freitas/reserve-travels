@@ -1,0 +1,72 @@
+.container-reserves {
+    display: flex;
+    flex-direction: column;
+}
+.title-reserves{
+    color: #fff;
+    font-size: 24px;
+}
+.reserves{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reserves img {
+  height: 100px;
+  width: 200px;
+}
+.reserves button{
+    background-color: #fff;
+    padding: 5px;
+}
+.reserves button:hover > svg{
+    transition: ease-in-out 0.5s;
+    background-color: rgba(223, 19, 90, 0.884);
+    fill: #fff;
+    border-radius: 2px;
+}
+
+.footer-reserves{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+}
+.footer-reserves button{
+    padding: 6px 16px;
+    min-width: 64px;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    background-color: rgb(220, 0, 78);
+    color: #fff
+}
+
+.footer-reserves button:hover{
+    background-color: rgba(223, 19, 90, 0.884);
+    transition: ease-in-out 0.5s;
+    box-shadow: 1px 0 0 #fff;
+}
+
+.reserves-quantity{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reserves-quantity svg{
+  cursor: pointer;
+}
+.reserves-quantity svg:hover{
+  fill: rgb(220, 0, 78);
+}
+.reserves-quantity input{
+  width: 25px;
+  text-align: center;
+  margin: 0 5px
+}
