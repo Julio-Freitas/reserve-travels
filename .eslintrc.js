@@ -22,6 +22,6 @@ module.exports = {
     'no-case-declarations': 0,
     'spaced-comment': 0,
     'no-underscore-dangle': 0,
-    'no-param-reassign': [2, { props: false }],
+    'no-param-reassign': 0,
   },
 };
